@@ -12,15 +12,15 @@ from logging.handlers import RotatingFileHandler
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7542241757:")
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22193282"))
+APP_ID = int(os.environ.get("APP_ID", "24798261"))
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "300f6323abc57f2c2b39eb1790fac3ad")
+API_HASH = os.environ.get("API_HASH", "fef280037f5759eccc540c6d7a279a14")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002352414263"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002280514367"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "HK")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5347709348"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6155478725"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
@@ -71,7 +71,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "👋Hello {first}\n\n<b>🪴You need to join in my official channel😊 to get lectures📽️\n\n🎀Kindly Please join Channel\n\n📍And Click on try again or go on post link again\n\nThankyou💕🪴\n\n📍𝗛𝗞 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟™~.</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b> </b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
@@ -82,8 +82,8 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly Dm here if u have any problem @HKOWNER0 !"
 
-ADMINS.append(5347709348)
-ADMINS.append(5347709348)
+ADMINS.append(6155478725)
+ADMINS.append(6155478725)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
